@@ -39,7 +39,7 @@ def pause_handler_input(key):
                 spider.animation.resume()
 
 
-weapon_models = ["assets/gun.obj", "assets/Sting-Sword-lowpoly.obj"]  # Add your weapons here
+weapon_models = ["assets/gun.obj", "assets/Sting-Sword-lowpoly.obj"]  # Add weapons here
 weapon_index = 0  # Start with the first weapon
 
 def reset_environment():
@@ -93,7 +93,7 @@ def damage_player(amount):
     player_health_bar.scale_x = player_health / 100 * 0.4  # Adjust bar width
 
     if player_health <= 0:
-        print("Player is defeated!")  # Future: Trigger game over event
+        print("Player is defeated!") 
 
 def input(key):
 
